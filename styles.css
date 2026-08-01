@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;              
+    background-color: #000000;
+}
+div#frame_area {
+    position: relative;
+    width: 100vw;
+    height: 100vh;  
+    height: 100dvh;  
+    margin: 0;  
+    padding: 0;     
+    overflow: hidden;
+    background: #7092BE;
+}
+div#app_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;  
+    background: #e0d20b;
+}
+div#topbar_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 0px;
+    height: 5%;
+    left: 0px; 
+    right: 0px;
+    background: #bfcbdf;
+}
+div#tray_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 5%;
+    height: 95%;
+    left: 0px;
+    right: 0px;
+    background: #a870be;
+}
+div#input_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    left: 0%;
+    width: 15%;
+    background: #ffffff;
+}
+div#codeletbanner_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 0%;
+    height: 11%;
+    left: 15%;
+    width: 70%;
+    background: #d0d0d0;
+}
+div#workspace_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 11%;
+    height: 89%;
+    left: 15%;
+    width: 70%;
+    background: #ffffff;
+}
+div#coderack_area {
+    margin: 0;
+    padding: 0;  
+    position: absolute;
+    top: 0%;
+    left: 85%;
+    width: 15%;
+    height: 100%;
+    background: #ffe5e0;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+p + ul {
+    margin-top: -16px;
+}
+
