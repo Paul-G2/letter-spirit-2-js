@@ -21,3 +21,7 @@ and [Letter Spirit Examiner](https://github.com/Paul-G2/letter-spirit-examiner-j
 
 My implementation is based entirely on [Rehling's original Scheme code](https://github.com/Alex-Linhares/FARGonautica/tree/master/Software/Letter-Spirit). 
 The look of the UI is based on screenshots contained in [McGraw's thesis](https://www.garymcgraw.com/technology/writings/thesis/), and on [James Marshall's Metacat](http://science.slc.edu/jmarshall/metacat/).
+
+A caveat: It's hard to be sure that I've ported the Scheme code correctly (not least because the algorithm is stochastic). 
+My implementation generates sensible-looking results, and I wrote a lot of unit tests for its various parts, but of course it's possible I may have got some things wrong. If you spot any problems, please submit an issue!
+
