@@ -1,6 +1,6 @@
 # letter-spirit-2-js
 
-[<img src="./screenshot.jpg">](https://paul-g2.github.io/letter-spirit-2-js/)
+[<img src="./screenshot.jpg">](https://paul-g2.github.io/letter-spirit-2-js/index.html)
 
 </br>
 
@@ -10,7 +10,7 @@ a computer model of human high-level perception and creativity, in the realm of 
  [Gary McGraw](https://www.garymcgraw.com/), and
  [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter). 
 
-[You can try it out here.](https://paul-g2.github.io/letter-spirit-2-js/)
+[You can try it out here.](https://paul-g2.github.io/letter-spirit-2-js/index.html)
 
 Letter Spirit 2 is described in [John Rehling's Ph.D. thesis.](https://github.com/Alex-Linhares/FARGonautica/blob/master/Literature/Ph.D.%20Theses/Rehling-2001-Letter.Spirit.part.Two.pdf),
 and in the book [<i>Fluid Concepts and Creative Analogies</i>](https://en.wikipedia.org/wiki/Fluid_Concepts_and_Creative_Analogies).
