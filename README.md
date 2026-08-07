@@ -25,3 +25,8 @@ The look of the UI is based on screenshots contained in [McGraw's thesis](https:
 A caveat: It's hard to be sure that I've ported the Scheme code correctly (not least because the algorithm is stochastic). 
 My implementation generates sensible-looking results, and I wrote a lot of unit tests for its various parts, but of course it's possible I may have got some things wrong. If you spot any problems, please submit an issue!
 
+<br><br>
+
+Here are some sample outputs produced by the app (with random seed = 123):
+
+<img src="./sample_results.jpg">
