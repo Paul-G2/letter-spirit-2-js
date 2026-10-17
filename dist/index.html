@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Letter Spirit II</title>
+		<link rel="stylesheet" href="./styles.css"/>	
+		
+		<script src="./LetterSpirit2.js"></script>
+
+		<script type="text/javascript">	
+			function main() { 
+				const params = new URLSearchParams(document.location.search);
+				const randSeed = parseInt(params.get("seed") || Date.now(), 10);
+				const app = new App({randSeed:randSeed});
+			}
+		</script>
+	</head>
+	
+	
+	<body onload="main()">
+		<div id="frame_area">
+			<div id="app_area">
+				<div id="topbar_area"></div>	
+				<div id="tray_area">
+					<div id="input_area"></div>
+					<div id="codeletbanner_area"></div>
+					<div id="workspace_area"></div>		
+					<div id="coderack_area"></div>
+				</div>	
+			</div>	
+		</div>
+	</body>
+</html>
